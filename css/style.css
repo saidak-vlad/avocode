@@ -1,0 +1,130 @@
+
+/*Обнуление*/
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body {
+
+}
+/*----------header----------*/
+header .container{
+    max-width: 1141px;
+
+    background-color: #ffffff;
+}
+header .nav-top-24 a{
+    color: #202020;
+    font-family: "Blogger Sans";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: left;
+}
+header .lang{
+   margin-right:25px;
+    margin-left:30px;
+}
+header .lang-lang {
+    width: 64px;
+    height: 26px;
+    border-radius: 13px;
+    border: 1px solid #e1e1e1;
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+header .currency{
+    margin-right:25px;
+}
+header .currency-currency {
+    width: 64px;
+    height: 26px;
+    border-radius: 13px;
+    border: 1px solid #e1e1e1;
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+header .header-top .nav-item  .nav-link {
+    margin-right:14px;
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+/*----------header-bottom----------*/
+header .header-bottom li a{
+    /* Style for "Доп.услуги" */
+    margin-left:24px;
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: center;
+}
+header .header-bottom .navbar-nav li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background: blue;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+header .header-bottom .navbar-nav li a:hover::after {
+    transform: scale(1);
+}
+@media only screen and (max-width: 992px) {
+    header .header-bottom .navbar-nav li a{
+        margin-left:0;
+        color: red;
+    }
+}
+
+
