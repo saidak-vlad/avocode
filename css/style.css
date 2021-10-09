@@ -48,7 +48,10 @@ body {
 header .container{
     max-width: 1141px;
 
-    background-color: #ffffff;
+    background-color:;
+}
+header .container .header-bottom{
+    background:;
 }
 header .nav-top-24 a{
     color: #202020;
@@ -123,8 +126,60 @@ header .header-bottom .navbar-nav li a:hover::after {
 @media only screen and (max-width: 992px) {
     header .header-bottom .navbar-nav li a{
         margin-left:0;
-        color: red;
+        color: ;
     }
 }
+/*----------server----------*/
+.section-server{
+    background:#182331;
+}
+.section-server .container{
+    max-width: 1141px;
 
+}
 
+.section-server .jumbo-header{
+    /* Style for "Аренда выд" */
+    color: #ffffff;
+    font-family: "Blogger Sans";
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: center;
+    margin-top:20px;
+
+}
+.section-server .border-primary{
+margin: auto;
+    margin-bottom: 20px;
+    margin-top:30px;
+}
+@media only screen and (max-width: 800px) {
+    .section-server .jumbo-header{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .section-server .jumbo-header{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .section-server .jumbo-header{
+        font-size: 20px;
+    }
+}
+/*----------server-bottom----------*/
+.section-server .server-bottom .comp-bloc .image-server img{
+
+    width:109px ;
+    height: 167px;
+    margin-top:30px;
+}
+.section-server .server-bottom .comp-bloc .btn-server{
+    background-color:#182331;
+    color: white;
+    border:none;
+    margin-top:20px;
+    margin-bottom:70px;
+}
