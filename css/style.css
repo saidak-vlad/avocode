@@ -42,16 +42,15 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 body {
-
+    height: 2000px;
 }
 /*----------header----------*/
 header .container{
     max-width: 1141px;
 
-    background-color:;
+
 }
 header .container .header-bottom{
-    background:;
 }
 header .nav-top-24 a{
     color: #202020;
@@ -62,7 +61,7 @@ header .nav-top-24 a{
     text-align: left;
 }
 header .lang{
-   margin-right:25px;
+    margin-right:25px;
     margin-left:30px;
 }
 header .lang-lang {
@@ -126,7 +125,7 @@ header .header-bottom .navbar-nav li a:hover::after {
 @media only screen and (max-width: 992px) {
     header .header-bottom .navbar-nav li a{
         margin-left:0;
-        color: ;
+
     }
 }
 /*----------server----------*/
@@ -150,7 +149,7 @@ header .header-bottom .navbar-nav li a:hover::after {
 
 }
 .section-server .border-primary{
-margin: auto;
+    margin: auto;
     margin-bottom: 20px;
     margin-top:30px;
 }
@@ -183,3 +182,106 @@ margin: auto;
     margin-top:20px;
     margin-bottom:70px;
 }
+/*----------popular-config----------*/
+.popular-config .container{
+    max-width: 1141px;
+}
+.popular-config .popular-config-top{
+    /* Style for "Популярные" */
+    color: #202020;
+    font-family: "Blogger Sans";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+    padding-top:35px;
+    padding-bottom:35px;
+}
+@media only screen and (max-width: 800px) {
+    .popular-config .jumbo-header{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .popular-config .jumbo-header{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .popular-config .jumbo-header{
+        font-size: 20px;
+    }
+}
+/*----------popular-config-bottom----------*/
+.popular-config .popular-config-bottom{
+    margin-left: 10px;
+    margin-right:10px;
+}
+@media only screen and (max-width: 350px) {
+    .popular-config .secom{
+        font-size: 20px;
+    }
+}
+.popular-config .secom{
+    padding-left:10px;
+    margin-bottom:20px;
+    border-style: none solid;
+    border-width:1px;
+    text-align: center;
+    max-width:284px;
+    width:100%;
+}
+.popular-config .card-title{
+    margin-top: 19px;
+    font-size: 25px;
+
+}
+
+
+.popular-config  .border-primary{
+    margin: auto;
+    padding-bottom:10px;
+}
+.popular-config .btn{
+    /* Style for "Rectangle" */
+    max-width: 171px;
+    max-height: 50px;
+    border-radius: 25px;
+    border: 2px solid #e9003a;
+    width: 100%;
+    height: 100%;
+
+}
+.popular-config .btn a{
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.popular-config .btn:hover{
+    /* Style for "Заказать" */
+    background-color: #e9003a;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.popular-config .btn a:hover{
+    color: #ffffff;
+}
+.popular-config .line{
+    text-decoration: line-through;
+}
+.popular-config .discount{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
