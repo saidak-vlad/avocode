@@ -185,6 +185,7 @@ header .header-bottom .navbar-nav li a:hover::after {
 /*----------popular-config----------*/
 .popular-config .container{
     max-width: 1141px;
+    background: cyan;
 }
 .popular-config .popular-config-top{
     /* Style for "Популярные" */
@@ -224,7 +225,7 @@ header .header-bottom .navbar-nav li a:hover::after {
 }
 .popular-config .secom{
     padding-left:10px;
-    margin-bottom:20px;
+    margin-bottom:60px;
     border-style: none solid;
     border-width:1px;
     text-align: center;
@@ -278,6 +279,58 @@ header .header-bottom .navbar-nav li a:hover::after {
 .popular-config .discount{
     font-size: 18px;
 }
+
+/*----------section-info----------*/
+.section-info{
+    background-color: #d7dee2;
+}
+.section-info .container-bg{
+    max-width: 1000px;
+    background: url(../img/Без-имени-2.png) no-repeat bottom right /*fixed*/;
+    margin-bottom: auto;
+    position: relative;
+}
+.section-info .container-content{
+    max-width:932px;
+}
+.section-info .jumbo-header{
+    /* Style for "Доверь под" */
+    color: #202020;
+    font-family: "Blogger Sans";
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-top:66px;
+    margin-bottom:21px;
+}
+@media only screen and (max-width: 500px) {
+    .section-info .jumbo-header{
+        font-size: 30px;
+    }
+}
+
+.section-info .info-content {
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
