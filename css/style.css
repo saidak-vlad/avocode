@@ -42,13 +42,11 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 body {
-    height: 2000px;
+
 }
 /*----------header----------*/
 header .container{
     max-width: 1141px;
-
-
 }
 header .container .header-bottom{
 }
@@ -185,7 +183,7 @@ header .header-bottom .navbar-nav li a:hover::after {
 /*----------popular-config----------*/
 .popular-config .container{
     max-width: 1141px;
-    background: cyan;
+
 }
 .popular-config .popular-config-top{
     /* Style for "Популярные" */
@@ -309,7 +307,6 @@ header .header-bottom .navbar-nav li a:hover::after {
         font-size: 30px;
     }
 }
-
 .section-info .info-content {
     color: #202020;
     font-family: "Open Sans";
@@ -320,21 +317,410 @@ header .header-bottom .navbar-nav li a:hover::after {
     margin-bottom:45px;
 }
 
+/*----------section-info----------*/
+.server-selection .container{
+
+    max-width: 1141px;
+    overflow: auto;
+}
+.server-selection .container-fluid{
+    min-width:1130px;
+
+}
+
+.server-selection-top .jumbo-header-title{
+    color: #202020;
+    font-family: "Blogger Sans";
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-top:53px;
+    margin-bottom:20px;
+}
+.server-selection-top .jumbo-header{
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom:35px;
+}
 
 
+.server-selection-locations .btn{
+
+}
+.btn-all-locations{
+    /* Style for "Rounded Re" */
+    max-width: 255px;
+    max-height: 50px;
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+    border: 1px solid #d7dee2;
+    background-color: #d7dee2;
+}
+.btn-all-locations a{
+    /* Style for "Все локаци" */
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.btn-country{
+    /* Style for "Rounded Re" */
+    max-width: 190px;
+    max-height: 50px;
+    width: 100%;
+    height:100%;
+    border-radius: 25px;
+    border: 1px solid #d7dee2;
+}
+.btn-country:hover{
+    /* Style for "Rounded Re" */
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.35);
+    border-radius: 25px;
+    border: 1px solid #d7dee2;
+}
+.btn-country a{
+    /* Style for "Украина" */
+
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+.flag{
+    margin-left:20px;
+    margin-right:14px;
+    /* Style for "UA" */
+
+}
+.locations{
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-right:0;
+}
+
+.server-selection .name{
+
+    margin-top:50px;
+}
+.custom-select{
+    /* Style for "Процесор" */
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.server-selection-info .most-popular{
+
+    /* Style for "Rounded Re" */
+    width: 27px;
+
+    border-radius: 10px 0 0 10px;
+    background-color: #f79726;
+
+}
+.server-selection-info {
+    /* Style for "Rounded Re" */
+    max-width: 1141px;
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top:10px;
+    margin-bottom:14px;
+    border: 1px solid #d7dee2;
+}
+.top-top {
+    width: 12px;
+    height: 24px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 
 
+}
+.sale{
+    /* Style for "Rounded Re" */
+    width: 27px;
+
+    border-radius: 10px 0 0 10px;
+    background-color: #ed1c24;
+}
+.sale-sale {
+    width: 12px;
+    height: 27px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.name-server {
+    /* Style for "Secom ua 1" */
+
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
 
 
+}
+.server-kiev{
+    /* Text style for "Киев" */
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 
 
+}
+
+.server-kiev img{
+    margin-right:10px;
+}
+.col-name-server{
+
+    /* Style for "Secom ua 1" */
+    max-width:135px;
+    width:100%;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:16px;
+
+}
+.processor{
+
+    /* Style for "2x Xeon E5" */
+
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top:auto;
+    margin-bottom:auto;
+
+}
 
 
+.bench{
+
+    /* Style for "15399" */
+
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.ram{
+
+    color: #202020;
+    font-family: "Open Sans - Extrabold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.memory{
+
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.price{
+
+    font-family: "Open Sans";
+    font-weight: undefined;
+    font-weight: 700;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.price-price{
+    color: #202020;
+    font-family: "Open Sans - Extrabold";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: line-through;
+}
+.price-discount{
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.order{
+
+    /* Style for "Заказать" */
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.none-none{
+    width: 27px;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+}
+/*-------Available-operating-systems-----*/
+
+.container-aos{
+    max-width: 1141px;
+    width:100%;
+    margin-bottom:70px;
+}
+.container-aos .jumbo-header{
+    margin-top:45px;
+    margin-bottom:45px;
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+.container-aos img{
+    /* Style for "ubuntu" */
+    width: 39px;
+    height: 40px;
+}
+.container-aos a{
+    /* Style for "Ubuntu" */
+    color: #202020;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+/*------footer-----*/
+.footer{
+    background-color: #182331;
+    padding-top:23px;
+    margin-bottom:40px;
+
+}
+.footer .container{
+    max-width:1141px ;
+    width:100%;
+}
+.footer-logo{
+    width: 203px;
+    height: 74px;
+    margin-bottom:31px;
+}
+.footer-contacts-phones a{
+    border-left: 2px solid gray;
+    margin-left:10px;
+    padding-left:10px;
+    color: #d7dee2;
+}
+.footer-col-contacts-mail{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.footer-col-contacts-mail img{
+    margin-right:5px;
+}
+.footer-col-contacts-mail a{
+    /* Style for "+380.44.38" */
+    color: #d7dee2;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-col-pages{
+    margin-top:79px;
+}
+.footer-pages-title{
+    /* Style for "Администри" */
+    color: #d7dee2;
+    font-family: "Open Sans - Bold";
+    font-size: 21px;
+    font-weight: 700;
+    /* Text style for "Админ.+ ау" */
+}
+.footer-col-pages-list a{
+    color: #d7dee2;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
 
 
+}
+.footer-col-contacts-socials-title{
+    /* Style for "Мы в соц." */
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left:20px;
+    margin-bottom:10px;
+}
 
+.footer-col-contacts-socials-icons a{
+    margin-left:5px;
 
+}
 
+.footer-col-contacts-socials-icons {
+    margin-left:30px;
+    margin-bottom:20px;
+}
 
+.secom-c{
+    /* Style for "© 2009 - 2" */
+    color: #d7dee2;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom:31px;
+
+}
+.fa-phone{
+    color: white;
+}
 
 
